@@ -1,0 +1,10 @@
+name = "lean_log_cruncher"
+version = "0.1.0"
+defaultTargets = ["lean_log_cruncher"]
+
+[[lean_lib]]
+name = "LeanLogCruncher"
+
+[[lean_exe]]
+name = "lean_log_cruncher"
+root = "Main"
