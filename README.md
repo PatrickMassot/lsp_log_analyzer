@@ -1,1 +1,1 @@
-# lean_log_cruncher
+# lsp_log_analyzer

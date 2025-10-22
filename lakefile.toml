@@ -1,10 +1,10 @@
-name = "lean_log_cruncher"
+name = "lsp_log_analyzer"
 version = "0.1.0"
-defaultTargets = ["lean_log_cruncher"]
+defaultTargets = ["lsp_log_analyzer"]
 
 [[lean_lib]]
-name = "LeanLogCruncher"
+name = "LSPLogAnalyzer"
 
 [[lean_exe]]
-name = "lean_log_cruncher"
+name = "lsp_log_analyzer"
 root = "Main"
