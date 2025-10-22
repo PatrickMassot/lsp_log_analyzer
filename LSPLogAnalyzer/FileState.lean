@@ -1,6 +1,3 @@
-import Lean.Data.JsonRpc
-import Lean.Data.Json.FromToJson
-import Lean.Data.Lsp
 import Lean.Server
 
 open Lean.JsonRpc
