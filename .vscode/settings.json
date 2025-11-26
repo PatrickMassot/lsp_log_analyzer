@@ -1,3 +1,4 @@
 {
-    "lean4.serverLogging.enabled": false
+    "lean4.logging.dir": "./logs",
+    "lean4.logging.enabled": true
 }

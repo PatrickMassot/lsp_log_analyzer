@@ -1,8 +1,6 @@
 import Lean.Data.Lsp
 
 open Lean.JsonRpc
-open IO.FS
-
 
 partial def collectMessages (stream : IO.FS.Stream) : IO (List Message) := do
   try
