@@ -52,7 +52,7 @@ partial def collectTacticInfosFromInfoTree (t : InfoTree) : List Elab.Info := Id
 /-- Given a TextDocumentItem and an (optional) list of content changes,
     reprocess the document using the FileWorker pipeline and return all tactic infos.
     This runs in RequestM (the same monad used by server handlers). -/
-def handleCollectGoals (td : TextDocumentItem) (changes? : Option (Array TextDocumentContentChangeEvent := none))
+def handleCollectGoals (td : TextDocumentItem) (changes? : Option (Array TextDocumentContentChangeEvent))
     : RequestM (Array Elab.Info) := do
   -- 1) Build DocumentMeta
   let docMeta := makeDocumentMeta td
